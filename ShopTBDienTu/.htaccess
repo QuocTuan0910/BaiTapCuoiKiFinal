@@ -1,0 +1,26 @@
+RewriteEngine ON
+
+RewriteRule "^trang-chu-mello-chuyen-ban-tbdt.html$" "index.php"
+
+RewriteRule "^gio-hang.html$" "cart.php"
+
+RewriteRule "^kiem-tra-and-thu-thuc-thanh-toan.html$" "checkout.php"
+
+RewriteRule "^san-pham-yeu-thich.html$" "show_wishlist.php"
+
+RewriteRule "^dang-nhap$" "login.php"
+
+RewriteRule "^dang-xuat$" "logout.php"
+
+RewriteRule "^tai-khoan-cua-toi$" "my_account.php"
+
+RewriteRule "^mien-phi-giao-hang-mien-phi-doi-tra$" "menu-content.php"
+
+RewriteRule "^goi-qua-tang-doc-quyen$" "gift.php"
+
+RewriteRule "^dich-vu-cham-soc-khach-hang$" "service.php"
+
+RewriteRule "^(.*)-([0-9]*).menu$" "grid.php?sanpham_id=$2"
+
+RewriteRule "^(.*)-([0-9]*).html$" "detail.php?sanpham_id=$2"
+
